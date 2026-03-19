@@ -38,8 +38,8 @@ if (process.env.NODE_ENV === "production") {
 
   app.use(express.static(frontendPath));
 
-  // only fallback for non-api routes
-  app.get("*", (req, res) => {
+  // SPA fallback (Express 5 safe)
+  app.use((req, res) => {
     if (req.originalUrl.startsWith("/api")) return;
     res.sendFile(path.join(frontendPath, "index.html"));
   });
