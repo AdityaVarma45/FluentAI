@@ -3,7 +3,6 @@
 🚀 **GenAI-powered English learning platform** built using modern AI models (Groq) to improve grammar, writing, and communication skills with real-time intelligent feedback.
 
 🔗 Live: https://fluentai-4z4w.onrender.com  
-📦 Repo: https://github.com/AdityaVarma45/FluentAI  
 
 ---
 
